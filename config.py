@@ -1,6 +1,6 @@
 API_URL = "http://supremeautomobilerdc.com:81/iclock/api/transactions/"
 EMP_API_URL = "http://supremeautomobilerdc.com:81/personnel/api/employees/"
-AUTH = ('admin', 'Md5189md5189')
+AUTH = ('admin', 'xxxxxxxxx')
 
 #EMAIL_SENDER = "evergreenarbind@gmail.com"
 #EMAIL_PASSWORD = "ttcscfncrxxekwkq"
