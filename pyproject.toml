@@ -1,0 +1,19 @@
+[project]
+name = "emp-daily-attendance-report"
+version = "1.0.0"
+description = "Employee Daily Attendance Report Generator"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas",
+    "requests",
+    "fpdf",
+    "openpyxl",
+    "xlsxwriter",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["main", "utils", "generate_reports", "config"]
